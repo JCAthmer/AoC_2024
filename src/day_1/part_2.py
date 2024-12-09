@@ -30,7 +30,6 @@ def map_method(group_1: List[int], group_2: List[int]) -> float:
     for g1, g2 in zip(group_1, group_2):
         g1_map[g1-offset] += 1
         g2_map[g2-offset] += 1
-    a = 0
     return sum((i+offset)*c1*c2 for i, (c1, c2) in enumerate(zip(g1_map, g2_map)))
 
 
