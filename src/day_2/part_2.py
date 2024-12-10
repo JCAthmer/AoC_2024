@@ -57,7 +57,7 @@ class Level:
 
 
 if __name__ == '__main__':
-    data_loc = "./day_2.txt"
+    data_loc = "./10M_data.txt"
     safe_values_pos = range(1, 4)
     safe_values_neg = range(-3, 0)
     with open(data_loc, encoding="UTF-8", mode='r') as file:
